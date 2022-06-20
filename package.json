@@ -1,0 +1,32 @@
+{
+  "name": "webdriverio-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js"
+  },
+  "author": "Ruzanna Hayrapetyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@badisi/wdio-harness": "^1.0.4",
+    "@wdio/cli": "^7.20.2",
+    "@wdio/local-runner": "^7.20.2",
+    "@wdio/mocha-framework": "^7.20.0",
+    "@wdio/spec-reporter": "^7.20.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^102.0.0",
+    "io": "^1.0.5",
+    "local": "^0.3.3",
+    "local-runner": "^0.1.1-alpha",
+    "runner": "^4.0.0",
+    "selenium-standalone": "^8.1.4",
+    "wdio-chromedriver-service": "^7.3.2",
+    "wdio-wait-for": "^2.2.6",
+    "webdriver": "^7.20.2",
+    "webdriverio": "^7.20.2"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.2.0"
+  }
+}
